@@ -1,0 +1,42 @@
+{% extends "templates/base.html" %}
+
+{% block title %}
+    <h1 class="title">Web App Food store</h1>
+{% endblock %}
+
+{% block content %}
+    <div id="example-table"></div>
+
+    <div><p><a href="/index_rating/data/2">Page 2</a></p></div>
+
+    <pre><code id="webview_data"></code></pre>
+
+    <span id="webview_data_status">Checking hash...</span>
+{% endblock %}
+
+{% block script %}
+    <script>
+        var initData = Telegram.WebApp.initData || '';
+        var initDataUnsafe = Telegram.WebApp.initDataUnsafe || {};
+
+        $('#webview_data').html(JSON.stringify(initDataUnsafe, null, 2));
+
+        if (initDataUnsafe.query_id && initData) {
+            $.ajax('/demo/checkData', {
+                type: 'POST',
+                data: {_auth: initData},
+                dataType: 'json',
+                success: function (result) {
+                    if (result.ok) {
+                        $('#webview_data_status').html('Hash is correct').addClass('ok');
+                    } else {
+                        $('#webview_data_status').html(result.error).addClass('err');
+                    }
+                },
+                error: function (xhr) {
+                    $('#webview_data_status').html('Server error').addClass('err');
+                }
+            });
+        }
+    </script>
+{% endblock %}

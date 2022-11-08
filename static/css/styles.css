@@ -1,0 +1,28 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+:root {
+    --body-background-color: white;
+    --title-color: black;
+    --sub-text-color: black;
+}
+
+body {
+    background-color: var(--body-background-color);
+}
+
+button {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.title {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: var(--title-color);
+}

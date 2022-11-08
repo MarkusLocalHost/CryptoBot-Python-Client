@@ -1,0 +1,39 @@
+{% extends "templates/base.html" %}
+
+{% block content %}
+    <div id="example-table"></div>
+
+    <div><p><a href="?page=2">Page 2</a></p></div>
+{% endblock %}
+
+{% block script %}
+    <script>
+        var tableData = []
+        {% for currency in currencies %}
+            tableData.push(
+                {
+                    market_cap_rank: "{{ currency["market_cap_rank"] }}",
+                    name: "{{ currency["name"] }}",
+                    symbol: "{{ currency["symbol"] }}",
+                    current_price: "{{ currency["current_price"] }}",
+                    one_h: "{{ currency["price_change_percentage_1h_in_currency"] }}%",
+
+                    url: "?currency={{ currency["name"] }}"
+                }
+            )
+        {% endfor %}
+
+        var table = new Tabulator("#example-table", {
+            data: tableData, //set initial table data
+            columns: [
+                {title: "№", field: "market_cap_rank"},
+                {title: "Name", field: "name", formatter: "link", formatterParams: {
+                    urlField: "url"
+                    }},
+                {title: "Symbol", field: "symbol"},
+                {title: "Current price", field: "current_price"},
+                {title: "1H", field: "one_h"},
+            ],
+        });
+    </script>
+{% endblock %}

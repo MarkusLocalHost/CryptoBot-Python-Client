@@ -1,0 +1,750 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-05-26 10:48+0500\n"
+"PO-Revision-Date: 2022-05-26 13:00+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: handlers/users/start.py:25
+msgid "Hello"
+msgstr "Test 222"
+
+#: handlers/users/start.py:27
+msgid "Произошла ошибка"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/passlib/ext/django/utils.py:1000
+msgid "algorithm"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/config.py:389
+#, python-format
+msgid "Section %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/config.py:390
+#, python-format
+msgid "Fig. %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/config.py:391
+#, python-format
+msgid "Table %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/config.py:392
+#, python-format
+msgid "Listing %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/roles.py:169
+#, python-format
+msgid "Python Enhancement Proposals; PEP %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/builders/changes.py:70
+msgid "Builtins"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/builders/changes.py:72
+msgid "Module level"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/builders/latex/__init__.py:354
+#: venv/lib/python3.8/site-packages/sphinx/builders/texinfo.py:153
+msgid " (in "
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/builders/html/__init__.py:461
+#: venv/lib/python3.8/site-packages/sphinx/builders/latex/__init__.py:179
+#: venv/lib/python3.8/site-packages/sphinx/transforms/__init__.py:109
+#: venv/lib/python3.8/site-packages/sphinx/writers/manpage.py:94
+#: venv/lib/python3.8/site-packages/sphinx/writers/texinfo.py:226
+#, python-format
+msgid "%b %d, %Y"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/builders/html/__init__.py:480
+msgid "General Index"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/builders/html/__init__.py:480
+msgid "index"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/builders/html/__init__.py:544
+msgid "next"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/builders/html/__init__.py:553
+msgid "previous"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/builders/html/__init__.py:1310
+#, python-format
+msgid "%s %s documentation"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/builders/latex/__init__.py:186
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:588
+#: venv/lib/python3.8/site-packages/sphinx/writers/texinfo.py:491
+msgid "Index"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/builders/latex/__init__.py:189
+msgid "Release"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/directives/other.py:168
+msgid "Section author: "
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/directives/other.py:170
+msgid "Module author: "
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/directives/other.py:172
+msgid "Code author: "
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/directives/other.py:174
+msgid "Author: "
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/__init__.py:389
+#, python-format
+msgid "%s %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/c.py:3223
+#, python-format
+msgid "%s (C %s)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/c.py:3344
+#: venv/lib/python3.8/site-packages/sphinx/domains/cpp.py:7294
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:437
+#: venv/lib/python3.8/site-packages/sphinx/ext/napoleon/docstring.py:727
+msgid "Parameters"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/c.py:3347
+#: venv/lib/python3.8/site-packages/sphinx/domains/cpp.py:7300
+msgid "Return values"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/c.py:3350
+#: venv/lib/python3.8/site-packages/sphinx/domains/cpp.py:7303
+#: venv/lib/python3.8/site-packages/sphinx/domains/javascript.py:223
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:449
+msgid "Returns"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/c.py:3352
+#: venv/lib/python3.8/site-packages/sphinx/domains/javascript.py:225
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:451
+msgid "Return type"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/c.py:3747
+#: venv/lib/python3.8/site-packages/sphinx/domains/cpp.py:7708
+msgid "member"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/c.py:3748
+msgid "variable"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/c.py:3749
+#: venv/lib/python3.8/site-packages/sphinx/domains/cpp.py:7707
+#: venv/lib/python3.8/site-packages/sphinx/domains/javascript.py:332
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:1195
+msgid "function"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/c.py:3750
+msgid "macro"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/c.py:3751
+msgid "struct"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/c.py:3752
+#: venv/lib/python3.8/site-packages/sphinx/domains/cpp.py:7706
+msgid "union"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/c.py:3753
+#: venv/lib/python3.8/site-packages/sphinx/domains/cpp.py:7711
+msgid "enum"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/c.py:3754
+#: venv/lib/python3.8/site-packages/sphinx/domains/cpp.py:7712
+msgid "enumerator"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/c.py:3755
+#: venv/lib/python3.8/site-packages/sphinx/domains/cpp.py:7709
+msgid "type"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/c.py:3757
+#: venv/lib/python3.8/site-packages/sphinx/domains/cpp.py:7714
+msgid "function parameter"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/changeset.py:20
+#, python-format
+msgid "New in version %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/changeset.py:21
+#, python-format
+msgid "Changed in version %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/changeset.py:22
+#, python-format
+msgid "Deprecated since version %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/cpp.py:7055
+msgid "Template Parameters"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/cpp.py:7172
+#, python-format
+msgid "%s (C++ %s)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/cpp.py:7297
+#: venv/lib/python3.8/site-packages/sphinx/domains/javascript.py:220
+msgid "Throws"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/cpp.py:7705
+#: venv/lib/python3.8/site-packages/sphinx/domains/javascript.py:334
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:1197
+msgid "class"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/cpp.py:7710
+msgid "concept"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/cpp.py:7715
+msgid "template parameter"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/javascript.py:138
+#, python-format
+msgid "%s() (built-in function)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/javascript.py:139
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:834
+#, python-format
+msgid "%s() (%s method)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/javascript.py:141
+#, python-format
+msgid "%s() (class)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/javascript.py:143
+#, python-format
+msgid "%s (global variable or constant)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/javascript.py:145
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:919
+#, python-format
+msgid "%s (%s attribute)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/javascript.py:217
+msgid "Arguments"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/javascript.py:292
+#, python-format
+msgid "%s (module)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/javascript.py:333
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:1199
+msgid "method"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/javascript.py:335
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:1196
+msgid "data"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/javascript.py:336
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:1202
+msgid "attribute"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/javascript.py:337
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:50
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:1204
+msgid "module"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:51
+msgid "keyword"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:52
+msgid "operator"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:53
+msgid "object"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:54
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:1198
+msgid "exception"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:55
+msgid "statement"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:56
+msgid "built-in function"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:442
+msgid "Variables"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:446
+msgid "Raises"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:679
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:823
+#, python-format
+msgid "%s() (in module %s)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:739
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:915
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:966
+#, python-format
+msgid "%s (in module %s)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:741
+#, python-format
+msgid "%s (built-in variable)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:766
+#, python-format
+msgid "%s (built-in class)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:767
+#, python-format
+msgid "%s (class in %s)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:828
+#, python-format
+msgid "%s() (%s class method)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:830
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:970
+#, python-format
+msgid "%s (%s property)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:832
+#, python-format
+msgid "%s() (%s static method)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:1124
+msgid "Python Module Index"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:1125
+msgid "modules"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:1174
+msgid "Deprecated"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:1200
+msgid "class method"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:1201
+msgid "static method"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:1203
+msgid "property"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/python.py:1435
+msgid " (deprecated)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/rst.py:96
+#: venv/lib/python3.8/site-packages/sphinx/domains/rst.py:157
+#, python-format
+msgid "%s (directive)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/rst.py:158
+#: venv/lib/python3.8/site-packages/sphinx/domains/rst.py:162
+#, python-format
+msgid ":%s: (directive option)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/rst.py:191
+#, python-format
+msgid "%s (role)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/rst.py:200
+msgid "directive"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/rst.py:201
+msgid "directive-option"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/rst.py:202
+msgid "role"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:92
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:109
+#, python-format
+msgid "environment variable; %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:234
+#, python-format
+msgid "%s command line option"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:236
+msgid "command line option"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:363
+msgid "glossary term must be preceded by empty line"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:371
+msgid "glossary terms must not be separated by empty lines"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:377
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:390
+msgid "glossary seems to be misformatted, check indentation"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:547
+msgid "glossary term"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:548
+msgid "grammar token"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:549
+msgid "reference label"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:551
+msgid "environment variable"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:552
+msgid "program option"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:553
+msgid "document"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:589
+msgid "Module Index"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/domains/std.py:590
+msgid "Search Page"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/environment/adapters/indexentries.py:70
+#, python-format
+msgid "see %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/environment/adapters/indexentries.py:74
+#, python-format
+msgid "see also %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/environment/adapters/indexentries.py:166
+msgid "Symbols"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/graphviz.py:376
+#: venv/lib/python3.8/site-packages/sphinx/ext/graphviz.py:384
+#, python-format
+msgid "[graph: %s]"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/graphviz.py:378
+#: venv/lib/python3.8/site-packages/sphinx/ext/graphviz.py:386
+msgid "[graph]"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/imgmath.py:325
+#: venv/lib/python3.8/site-packages/sphinx/ext/mathjax.py:47
+#: venv/lib/python3.8/site-packages/sphinxcontrib/jsmath/__init__.py:51
+msgid "Permalink to this equation"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/intersphinx.py:268
+#, python-format
+msgid "(in %s v%s)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/intersphinx.py:270
+#, python-format
+msgid "(in %s)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/linkcode.py:62
+#: venv/lib/python3.8/site-packages/sphinx/ext/viewcode.py:180
+msgid "[source]"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/todo.py:62
+msgid "Todo"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/todo.py:153
+msgid "<<original entry>>"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/todo.py:155
+#, python-format
+msgid "(The <<original entry>> is located in %s, line %d.)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/todo.py:165
+msgid "original entry"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/viewcode.py:281
+msgid "[docs]"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/viewcode.py:295
+msgid "Module code"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/viewcode.py:301
+#, python-format
+msgid "<h1>Source code for %s</h1>"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/viewcode.py:328
+msgid "Overview: module code"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/viewcode.py:329
+msgid "<h1>All modules for which code is available</h1>"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/autodoc/__init__.py:1682
+#, python-format
+msgid "Bases: %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/autodoc/__init__.py:1783
+#: venv/lib/python3.8/site-packages/sphinx/ext/autodoc/__init__.py:1861
+#: venv/lib/python3.8/site-packages/sphinx/ext/autodoc/__init__.py:1884
+#, python-format
+msgid "alias of %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/autodoc/__init__.py:1930
+#, python-format
+msgid "alias of TypeVar(%s)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/napoleon/__init__.py:339
+#: venv/lib/python3.8/site-packages/sphinx/ext/napoleon/docstring.py:694
+msgid "Keyword Arguments"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/napoleon/docstring.py:648
+msgid "Example"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/napoleon/docstring.py:649
+msgid "Examples"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/napoleon/docstring.py:709
+msgid "Notes"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/napoleon/docstring.py:718
+msgid "Other Parameters"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/napoleon/docstring.py:754
+msgid "Receives"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/napoleon/docstring.py:758
+msgid "References"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/napoleon/docstring.py:790
+msgid "Warns"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/ext/napoleon/docstring.py:794
+msgid "Yields"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/locale/__init__.py:244
+msgid "Attention"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/locale/__init__.py:245
+msgid "Caution"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/locale/__init__.py:246
+msgid "Danger"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/locale/__init__.py:247
+msgid "Error"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/locale/__init__.py:248
+msgid "Hint"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/locale/__init__.py:249
+msgid "Important"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/locale/__init__.py:250
+msgid "Note"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/locale/__init__.py:251
+msgid "See also"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/locale/__init__.py:252
+msgid "Tip"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/locale/__init__.py:253
+msgid "Warning"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/util/docutils.py:249
+#, python-format
+msgid "unknown directive or role name: %s:%s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/writers/html.py:120
+#: venv/lib/python3.8/site-packages/sphinx/writers/html.py:129
+#: venv/lib/python3.8/site-packages/sphinx/writers/html5.py:99
+#: venv/lib/python3.8/site-packages/sphinx/writers/html5.py:108
+msgid "Permalink to this definition"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/writers/html.py:405
+#: venv/lib/python3.8/site-packages/sphinx/writers/html5.py:364
+msgid "Permalink to this term"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/writers/html.py:428
+#: venv/lib/python3.8/site-packages/sphinx/writers/html.py:433
+#: venv/lib/python3.8/site-packages/sphinx/writers/html5.py:387
+#: venv/lib/python3.8/site-packages/sphinx/writers/html5.py:392
+msgid "Permalink to this headline"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/writers/html.py:437
+#: venv/lib/python3.8/site-packages/sphinx/writers/html5.py:396
+msgid "Permalink to this table"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/writers/html.py:480
+#: venv/lib/python3.8/site-packages/sphinx/writers/html5.py:439
+msgid "Permalink to this code"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/writers/html.py:482
+#: venv/lib/python3.8/site-packages/sphinx/writers/html5.py:441
+msgid "Permalink to this image"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/writers/html.py:484
+#: venv/lib/python3.8/site-packages/sphinx/writers/html5.py:443
+msgid "Permalink to this toctree"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/writers/latex.py:847
+#: venv/lib/python3.8/site-packages/sphinx/writers/manpage.py:239
+#: venv/lib/python3.8/site-packages/sphinx/writers/texinfo.py:633
+msgid "Footnotes"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/writers/manpage.py:288
+#: venv/lib/python3.8/site-packages/sphinx/writers/text.py:795
+#, python-format
+msgid "[image: %s]"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx/writers/manpage.py:289
+#: venv/lib/python3.8/site-packages/sphinx/writers/text.py:796
+msgid "[image]"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinx_rtd_theme/__init__.py:31
+msgid ""
+"The canonical_url option is deprecated, use the html_baseurl option from "
+"Sphinx instead."
+msgstr ""
+

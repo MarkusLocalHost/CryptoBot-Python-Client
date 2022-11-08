@@ -1,0 +1,25 @@
+version: "3.1"
+
+services:
+  redis:
+    container_name: "redis_cryptobot"
+    image: "redis:alpine"
+    restart: always
+    ports:
+      - "6379:6379"
+#  bot:
+#    container_name: bot
+#    build:
+#      context: bot/
+#    command: python bot/app.py
+#    restart: always
+#    env_file:
+#      - ".env"
+#    environment:
+#      WEBAPP_PORT: 3001
+#    ports:
+#      - "8443:3001"
+#    depends_on:
+#      - redis
+#    volumes:
+#      - .:/home/ubuntu/AiogramQuizBot

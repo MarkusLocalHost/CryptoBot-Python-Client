@@ -1,0 +1,37 @@
+{% extends "templates/base.html" %}
+
+{% block content %}
+    <div id="example-table"></div>
+{% endblock %}
+
+{% block script %}
+    <script>
+        var tableData = []
+        {% for currency in currencies %}
+            tableData.push(
+                {
+                    market_cap_rank: "{{ currency["market_cap_rank"] }}",
+                    thumb: "{{ currency["thumb"] }}",
+                    coin: "{{ currency["name"] }}",
+                    symbol: "{{ currency["symbol"] }}",
+                    action: "Выбрать",
+
+                    url: "?currency={{ currency["name"] }}"
+                }
+            )
+        {% endfor %}
+
+        var table = new Tabulator("#example-table", {
+            data: tableData, //set initial table data
+            columns: [
+                {title: "№", field: "market_cap_rank", width:50},
+                {title: "", field: "thumb", formatter: "image", width:10},
+                {title: "Coin", field: "coin", width:150},
+                {title: "Symbol", field: "symbol", width:70},
+                {title: "Action", field: "action", formatter: "link", formatterParams: {
+                    urlField: "url"
+                    }}
+            ],
+        });
+    </script>
+{% endblock %}
